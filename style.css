@@ -68,6 +68,7 @@ li a:hover{
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
+    max-width: 100%;
 }
 .a1{
     width: 200px;
