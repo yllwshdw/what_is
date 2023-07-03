@@ -71,25 +71,25 @@ li a:hover{
     max-width: 100%;
 }
 .a1{
-    width: 200px;
+    width: 300px;
     border: 1px solid black;
-    padding: 0px 200px;
+    padding: 0px 30px;
     text-align: center;
     height: 250px;
     background-color: azure;
 }
 .b2{
-    width: 200px;
+    width: 300px;
     border: 1px solid black;
-    padding: 0px 200px;
+    padding: 0px 30px;
     text-align: center;
     height: 250px;
     background-color: azure;
 }
 .c3{
-    width: 200px;
+    width: 300px;
     border: 1px solid black;
-    padding: 0px 200px;
+    padding: 0px 30px;
     text-align: center;
     height: 250px;
     background-color: azure;
