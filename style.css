@@ -1,0 +1,177 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li a{
+    padding: 20px 10px;
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 32px;
+}
+header{
+    background-color: aliceblue;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    text-align: center;
+}
+li a:hover{
+    color: red;
+    text-shadow: 0px 0px 3px rgb(0, 162, 255);
+}
+.one{
+    height: 900px;
+    background-image: url("url.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+.one h1{
+    font-size: 98px;
+    letter-spacing: 10px;
+}
+.one p{
+    font-size: 43px;
+}
+.link a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+.link a:hover{
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    background-color: khaki;
+    padding: 20px 10px;
+    align-items: center;
+}
+.text2{
+    width: 500px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.a1{
+    width: 200px;
+    border: 1px solid black;
+    padding: 0px 200px;
+    text-align: center;
+    height: 250px;
+    background-color: azure;
+}
+.b2{
+    width: 200px;
+    border: 1px solid black;
+    padding: 0px 200px;
+    text-align: center;
+    height: 250px;
+    background-color: azure;
+}
+.c3{
+    width: 200px;
+    border: 1px solid black;
+    padding: 0px 200px;
+    text-align: center;
+    height: 250px;
+    background-color: azure;
+}
+.s{
+    padding: 10px 20px;
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.486);
+    width: 500px;
+    border-radius: 40px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.a1 a{
+    background-color: rgb(238, 255, 0);
+    color: rgb(0, 255, 13);
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+.b2 a{
+    background-color: rgb(255, 238, 0);
+    color: rgb(9, 255, 0);
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+.c3 a{
+    background-color: rgb(238, 255, 0);
+    color: rgb(51, 255, 0);
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+.ss{
+    background-image: url("https://natworld.info/wp-content/uploads/2019/07/Prirodnye-jekosistemy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+footer{
+    background: rgb(255, 0, 0);
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+address{
+    color: aqua;
+}
+.text2 p{
+    text-align: justify;
+}
+.three h3{
+    font-size: 32px;
+}
+.three p{
+    font-size: 24px;
+}
+footer p{
+    color: aqua;
+}
+footer h2{
+    color: aqua;
+}
+footer a{
+    color: rgb(0, 160, 160);
+}
+.img3 img{
+    width: 100px;
+}
+.text3{
+    flex-grow: 1;
+}
+.img3{
+    flex-grow: 2;
+}
+.img3 a{
+    margin: 20px;
+}
